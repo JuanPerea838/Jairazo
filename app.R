@@ -281,16 +281,16 @@ ui <- dashboardPage(skin = "purple",
                         tabItem(tabName = "JoseMarMor",
                                 
                                 box(title = "Relación de Temperatura con Descripción del Cielo", status = "info", collapsible = T, width = 6, solidHeader = TRUE,
-                                    img(src="https://i.postimg.cc/nrMsrx6p/Rplot02.jpg") ),
+                                    img(src="https://i.postimg.cc/PrB1N6TY/Rplot10.jpg") ),
                                 box(title = "Summary de la Temperatura", status = "info", collapsible = T, width = 6, solidHeader = TRUE,
-                                    img(src="https://i.postimg.cc/h4V1R1Kj/isla-tempcel.jpg") ),
+                                    img(src="https://i.postimg.cc/sgdZ3v4J/jose-tempcel.jpg") ),
                                 box(title = "Summary de la Velocidad del Viento", status = "info", collapsible = T, width = 6, solidHeader = TRUE,
-                                    img(src="https://i.postimg.cc/qM0XJ67G/isla-windspeed.jpg") ),        
+                                    img(src="https://i.postimg.cc/fT094xmL/jose-windspe.jpg") ),        
                                 box(title = "Summary de la humedad relativa", status = "info", collapsible = T, width = 6, solidHeader = TRUE,
-                                    img(src="https://i.postimg.cc/RZZ7frK6/isla-relatehum.jpg") ),
+                                    img(src="https://i.postimg.cc/9Qdw0CxH/jose-relhu.jpg") ),
                                 box(title = "Summary de la prob. de precipitación", status = "info", collapsible = T, width = 6, solidHeader = TRUE,
-                                    img(src="https://i.postimg.cc/jdX6LqwY/isla-probprep.jpg") ),
-                                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Isla_Mujeres_location_map.svg/545px-Isla_Mujeres_location_map.svg.png") 
+                                    img(src="https://i.postimg.cc/jq17k8Wm/jose-preprob.jpg") ),
+                                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mexico_Quintana_Roo_Jose_Maria_Morelos_location_map.svg/545px-Mexico_Quintana_Roo_Jose_Maria_Morelos_location_map.svg.png") 
                                 
                         ),
                         
