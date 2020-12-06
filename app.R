@@ -5,17 +5,9 @@ library(datasets)
 library(openxlsx)
 library(dplyr)
 library(stringr)
-library(caTools)
-library(gapminder)
 library(ggplot2)
-library(gganimate)
 library(tidyverse)
-library(plyr)
-library(treemap)
-library(rworldmap)
 library(rgdal)
-library(threejs)
-library(png)
 
 
 datos = read.csv("QuintanaRoo.csv", sep=",", stringsAsFactors = F) # Colocarla como variable global
