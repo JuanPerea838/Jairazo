@@ -38,7 +38,7 @@ OthonPBlanco = datos %>%
 BenitoJua = datos %>% 
   filter(results.city == "Benito JuÃ¡rez")
 JoseMaMor = datos %>% 
-  filter(results.city == "JosÃ© MarÃ­a Morelos")
+  filter(results.city == "Jose Maria Morelos")
 LazaCarde = datos %>% 
   filter(results.city == "LÃ¡zaro CÃ¡rdenas")
 Tulum = datos %>% 
@@ -355,4 +355,3 @@ server <- function(input, output){
 }
 
 shinyApp(ui = ui, server = server)
-
