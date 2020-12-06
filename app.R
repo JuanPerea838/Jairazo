@@ -7,7 +7,8 @@ library(dplyr)
 library(stringr)
 library(ggplot2)
 library(tidyverse)
-library(rgdal)
+
+
 
 
 datos = read.csv("QuintanaRoo.csv", sep=",", stringsAsFactors = F) # Colocarla como variable global
@@ -154,7 +155,8 @@ ui <- dashboardPage(skin = "purple",
                                     img(src='https://upload.wikimedia.org/wikipedia/commons/4/40/Koppen-Geiger_Map_MEX_present.svg', width = 870, height = 447)
                                 ),
                                 box(title = "Información ", status = "info" , collapsible = T, width = 20, solidHeader = TRUE, "En el presente mapa se muestra las zonas climáticas generales hasta 2016, 
-                                    esto nos sirve para comparar con las condiciones atmosféricas hoy en día y ver el impacto del calentamiento global.")
+                                    esto nos sirve para comparar con las condiciones atmosféricas hoy en día y ver el impacto del calentamiento global. Por cuestiones
+                                    prácticas, decidimos entrar más a detalle analizando las condiciones de los 11 municipios de Quintana Roo.")
                                 
                                 ),
                         ######################
